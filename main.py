@@ -1,4 +1,4 @@
-def binary(number): #does the math for conversion
+def binary(number):
   digit = number % 2
   return str(digit)
 
@@ -11,8 +11,8 @@ def run():  #recursive run func
       num//=2
     length = ''.join(nums)
     stringlength=len(length)
-    reversedString=length[stringlength::-1] #reverses string
-    print("Your number in binary is: " + reversedString) #prints reversed string
+    reversedString=length[stringlength::-1] #reverses binary number string 
+    print("Your number in binary is: " + reversedString)
     print(" ")
     print(" ")
   except Exception as e:
